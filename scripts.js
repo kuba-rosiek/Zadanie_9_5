@@ -1,6 +1,7 @@
 // scripts.js
-var buttons = document.getElementsByClassName('button'); // Pobiera elementy z klasy button i przypisuje do zmiennej buttons
-		for (var i = 0 ; i == buttons.length ; i++) { 	// petla, wykonuje sie tyle razy ile jest elementow button
-			buttons[1].innerText = '' 
-		};
-alert()	;		
+var buttons = document.getElementsByClassName('button'); 
+		var i;
+		for (i = 0 ; i > buttons.length ; i++) { 	
+		buttons[i].innerText;	
+		};	
+console.log(buttons[i].innerText);
